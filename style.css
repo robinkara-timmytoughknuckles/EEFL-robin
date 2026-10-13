@@ -22,10 +22,56 @@ body
     font-size: 20px;
 }
 
-/* Texten i #toptext */
+/* Texten i toptext left */
 #top-left p 
 {
     font-size: 28px;
     color: white;
     margin: 0;
+    padding-top: 37px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    text-decoration: none;
+}
+/* flyttar texten till höger */
+#top-right
+{
+    float: right;
+    margin-left: 100px;
+    margin-top: -37px;
+}
+/* gör den vit och tar bart under line*/
+#top-right a
+{
+    color: white;
+    text-decoration: none;
+}
+/* gör så att den blir ljus blå när musen är över texten */
+#top-right a:hover
+{
+    color: #00E3F3;
+    text-decoration: underline;
+}
+/* stäcken mellan texterna */
+.divider
+{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+#header-background {
+    background-image: url("background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+}
+/* texten i front image */
+#header-text h1
+{
+    color: white;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    text-decoration: none;
+    margin: auto;
+    text-align: center;
+    padding-top: -500px;
 }
