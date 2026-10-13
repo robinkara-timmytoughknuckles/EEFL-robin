@@ -1,0 +1,31 @@
+/* Ändrar bakgrunden och tar bort tomrum runt sidan */
+body
+{
+    margin: 0px;
+    background-color: #011342
+}
+/* Bestämmer sidans bredd och centrerar den */
+#wrapper
+{
+    width: 1400px;
+    margin: auto;
+}
+/* Översta delen */
+#top
+{
+    height: auto;
+    width: 100%;
+    padding-top: 10px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+/* Texten i #toptext */
+#top-left p 
+{
+    font-size: 28px;
+    color: white;
+    margin: 0;
+}
